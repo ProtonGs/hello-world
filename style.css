@@ -35,10 +35,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 
+
 body{
 	position:sticky;
 	top: 0px;	
 	background: url("img/1616967527_15-p-fon-dlya-strima-17.jpg")100% fixed no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+
+
 }
 .topnav {
 	background-color: #333;
@@ -67,14 +73,14 @@ body{
 
 
 .mainphoto{
-	text-align: center;
 	width:180px;
 	height: 180px;
 	position: relative;
 	top: 20px;
-	left: 150px;
+	margin-left: 33%;
 	z-index: 1;
 	border-radius: 30%;
+
 }
 
 .block{
@@ -82,51 +88,83 @@ body{
 	color: #fff;
 	font-size: 20px;
 	position: relative;
-	margin: 0px 600px 0px 600px;
+	margin: auto;
 	background: url('img/photo_2021-07-24_22-33-30.jpg') 100%/cover no-repeat;
-	height: 700px;
+	height: 800px;
 	border-radius: 15px;
 	box-shadow: 0 0 10px #000;
+	width: 30%;
+	max-width: 960px;
+	max-height: 2000px;
 }
 
 .block p {
-	padding: 0px 0px 30px 0px;
+	padding: 0px 0px 50px 0px;
 	position: relative; 
 	left: 1px;
-	top: 50px;
-	text-shadow: 1px 1px 2px #333; 
+	top: 45px;
 	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	
 }
 .block p:nth-child(2){
 	font-size: 32px;
-	color: rgb(77, 41, 1);
+	color: rgb(141, 76, 1);
 }
 .block p:nth-child(3){
-	position:relative;
-	top: 29px;
-	color: rgb(105, 97, 97);
+	color: rgb(179, 162, 162);
 	right: 50px;
+
+	background-color: rgba(10, 25, 40, 0.7);
+	border-bottom: 3px solid rgb(104, 104, 104);
+	border-top: 3px solid rgb(104, 104, 104);
+
+
 }
 .block p:nth-child(4){
 	font-size: 32px;
-	color: rgb(77, 41, 1);
+	color: rgb(141, 76, 1);
+	top: 15%;
 }
 .block p:nth-child(5){
-	color: blue;
+	color: rgb(57, 126, 255);
+	background-color: rgba(0, 41, 82, 0.7);
+	width: 40%;                                 /*Укоротить*/
+	height: 6%;                                 /*Укоротить*/
+	margin-left: 30%;                           /*Укоротить*/
+	border-bottom: 1px solid rgb(57, 126, 255);
+	border-top: 1px solid rgb(57, 126, 255);
+	top: 15%;                                    /*Укоротить*/
 }
 .block p:nth-child(6){
-	color: red;
+	color: rgb(255, 8, 8);
+	background-color: rgba(82, 0, 0, 0.7);
+	width: 40%;                                 /*Укоротить*/
+	height: 6%;                                 /*Укоротить*/
+	margin-left: 30%;                           /*Укоротить*/
+	border-bottom: 1px solid rgb(255, 8, 8);
+	border-top: 1px solid rgb(255, 8, 8);
+	top: 15%;                                   /*Укоротить*/
 }
 .block p:nth-child(7){
-	color: green;
+	color: rgb(4, 211, 4);
+	background-color: rgba(25, 107, 0, 0.7);
+	width: 40%;                                  /*Укоротить*/
+	height: 6%;                                  /*Укоротить*/
+	margin-left: 30%;                            /*Укоротить*/
+	border-bottom: 1px solid rgb(4, 211, 4);
+	border-top: 1px solid rgb(4, 211, 4);
+	top: 15%;                                    /*Укоротить*/
 }
+
 
 
 .text {
 	font-size: 45px;
 	position: relative;
 	padding: 50px 550px 0px 550px;
-
+	color: #fff;
 }
 .box {
 	border-radius: 25px;
